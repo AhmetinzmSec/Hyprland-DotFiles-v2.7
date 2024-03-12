@@ -8,15 +8,18 @@
   "margin-right": 0,
   "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/spotify"],
   "modules-center": ["battery", "network"],
-  "modules-right": ["tray", "pulseaudio", "custom/weather", "clock"],
+  "modules-right": ["custom/weather", "tray", "pulseaudio", "clock"],
   // Modules configuration
-"clock": {
-  "format": " {:%H:%M}",
-  "tooltip": "true",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": " {:%d/%m}"
-},
 
+"clock": {
+  "interval": 60,
+  "align": 0,
+  "rotate": 0,
+  "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+  // "format": "{:%H:%M,       %d %b %a}",
+  "format": " {:%H:%M}",
+  "format-alt": " {:%a %b %d %G}",
+},
 
 "hyprland/workspaces": {
       "active-only": false,
