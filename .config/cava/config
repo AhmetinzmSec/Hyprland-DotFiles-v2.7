@@ -173,16 +173,14 @@ data_format = ascii
 # Gradient mode, only hex defined colors are supported,
 # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-gradient = 1
-gradient_count = 2
-gradient_color_1 = '#7aa2f7'
-gradient_color_2 = '#c4a7e7'
-; gradient_color_3 = '#ffffff'
-; gradient_color_4 = '#ffffff'
-; gradient_color_5 = '#cca633'
-; gradient_color_6 = '#cc8033'
-; gradient_color_7 = '#cc5933'
-; gradient_color_8 = '#cc3333'
+ gradient = 1
+ gradient_count = 6
+ gradient_color_6 = '#DD868C'
+ gradient_color_5 = '#E4A2A8'
+ gradient_color_4 = '#E7B0B6'
+ gradient_color_3 = '#EABEC3'
+ gradient_color_2 = '#F0CED2'
+ gradient_color_1 = '#F5DDE0'
 
 
 

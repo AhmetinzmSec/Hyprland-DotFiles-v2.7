@@ -5,7 +5,7 @@
 THEME='Catppuccin-Mocha-Standard-Mauve-Dark'
 ICONS='Tela-circle-dracula'
 FONT='Noto Sans 11'
-CURSOR='Breeze'
+CURSOR='Adwaita'
 
 SCHEMA='gsettings set org.gnome.desktop.interface'
 
