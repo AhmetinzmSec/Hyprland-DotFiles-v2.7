@@ -156,7 +156,7 @@ window#waybar {
     color: #e5809e;
     background-color: #282828;
     border-radius: 0px 24px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 5px 0px 0px;
     padding: 0 10px 0 10px;
     /*border-right: solid 1px #282738;*/
     font-size: 20px;
